@@ -1,0 +1,30 @@
+{
+ 
+   "Version": "2017-10-17",
+   
+ "Statement": [
+      
+  {
+         
+
+   "Effect": "Allow",
+      
+      "Action": [
+             
+   "cloudwatch:Describe*",
+      
+          "ec2:Describe*",
+      
+          "ec2:RebootInstances",
+  
+              "ec2:StopInstances"
+ 
+           ],
+           
+ "Resource": "*"
+       
+ }
+ 
+   ]
+
+}
